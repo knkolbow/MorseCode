@@ -17,9 +17,7 @@ public class Main {
 		// Get users message
 		System.out.println("Enter the message you want to encode: ");
 		String[] message = scnr.nextLine().trim().split(" ");
-		for (int i = 0; i < message.length; i++) {
-			System.out.println(message[i]);
-		}
+		
 		
 		// Encode and decode message
 		String encodedMessage = morseCode.encodeText(message);
